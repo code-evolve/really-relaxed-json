@@ -24,7 +24,7 @@ npm install really-relaxed-json
 <dependency>
     <groupId>tv.twelvetone.rjson</groupId>
     <artifactId>rjson</artifactId>
-    <version>1.3.1</version>
+    <version>1.4.0</version>
 </dependency>
 <!-- The library needs the Kotlin runtime, which versions before 1.4.1 do not declare -->
 <dependency>
