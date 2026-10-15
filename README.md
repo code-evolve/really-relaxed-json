@@ -24,17 +24,13 @@ npm install really-relaxed-json
 <dependency>
     <groupId>tv.twelvetone.rjson</groupId>
     <artifactId>rjson</artifactId>
-    <version>1.4.0</version>
-</dependency>
-<!-- The library needs the Kotlin runtime, which versions before 1.4.1 do not declare -->
-<dependency>
-    <groupId>org.jetbrains.kotlin</groupId>
-    <artifactId>kotlin-stdlib</artifactId>
-    <version>1.7.21</version>
+    <version>1.4.1</version>
 </dependency>
 ```
 
-No `<repositories>` entry is needed: it resolves from Maven Central.
+No `<repositories>` entry is needed: it resolves from Maven Central, and brings the Kotlin runtime it
+needs (`kotlin-stdlib`) with it. Versions before 1.4.1 do not, so add `kotlin-stdlib` yourself if you
+use one of those.
 
 ## License
 
